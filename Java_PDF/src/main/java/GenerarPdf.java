@@ -12,7 +12,7 @@ public class GenerarPdf {
         Document document = new Document(PageSize.A4);
 
         try {
-            PdfWriter.getInstance(document, new FileOutputStream("C:/Users/Eliana/Documents/JAVA/ejemplo.pdf"));
+            PdfWriter.getInstance(document, new FileOutputStream("ejemplo.pdf"));
             document.open();
 
             // Añadir imagen
