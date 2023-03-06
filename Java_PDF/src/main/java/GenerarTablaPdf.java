@@ -11,7 +11,7 @@ import java.util.List;
         public static void main(String[] args) {
             Document document = new Document(PageSize.A4, 50, 50, 50, 50);
             try {
-                PdfWriter.getInstance(document, new FileOutputStream("C:/Users/Eliana/Documents/JAVA/tabla.pdf"));
+                PdfWriter.getInstance(document, new FileOutputStream("tablaEjemplo.pdf"));
                 document.open();
                 PdfPTable table = new PdfPTable(3); // Crea una tabla con 3 columnas
                 table.setWidthPercentage(100); // La tabla ocupa el ancho completo de la página
